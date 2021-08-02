@@ -1,0 +1,25 @@
+.creditCard {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.creditCardLogo {
+    text-align: right;
+}
+
+.creditCardLogo img {
+    height: 20px;
+}
+
+.creditCardNumber {
+    text-align: center;
+}
+
+.bankName {
+    margin-left: 20px;
+}
+
+

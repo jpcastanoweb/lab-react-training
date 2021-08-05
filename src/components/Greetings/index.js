@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function index(props) {
-  console.log(props);
   const getGreeting = (lang) => {
     switch (lang) {
       case 'de':

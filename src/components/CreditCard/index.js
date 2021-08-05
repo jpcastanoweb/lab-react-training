@@ -10,8 +10,6 @@ export default function index(props) {
     color: props.color,
   };
   const getCardImg = (type) => {
-    console.log('Type: ', type);
-    console.log(type === 'Visa');
     if (type === 'Visa') {
       return './../img/visa.png';
     } else if (type === 'Master Card') {

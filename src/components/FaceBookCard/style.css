@@ -1,0 +1,9 @@
+.fb-box {
+    display: flex;
+}
+
+.fb-box img {
+    width: 128px;
+    height: 128px;
+    margin-right: 10px;
+}

@@ -1,0 +1,14 @@
+.color-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.color-block {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    margin-right: 10px;
+}

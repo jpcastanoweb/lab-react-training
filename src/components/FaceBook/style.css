@@ -1,3 +1,11 @@
 .facebook{
     padding: 0;
 }
+
+.buttons {
+    padding: 0;
+}
+
+.buttons button {
+    margin-right: 10px;
+}

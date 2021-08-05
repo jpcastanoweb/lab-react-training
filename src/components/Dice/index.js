@@ -7,7 +7,7 @@ const getRandomImagePath = () => {
   return '/img/dice' + randomNum + '.png';
 };
 
-//credit: https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
+//credit: https://stackoverflow.com/questions/951021/what-is-the-javascript-version-of-sleep
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }

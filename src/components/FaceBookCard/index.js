@@ -1,9 +1,16 @@
-import React, { Profiler } from 'react';
+import React from 'react';
 import './style.css';
 
 export default function FaceBookCard(props) {
   return (
-    <div className="box fb-box">
+    <div
+      className="box fb-box"
+      style={
+        props.country === props.currentCountry
+          ? { backgroundColor: 'lightblue' }
+          : {}
+      }
+    >
       <img src={props.img} alt="profile" />
       <div>
         <p>
